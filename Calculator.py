@@ -8,6 +8,7 @@ choice = input("Enter the choice: ")
 num2 = float(input("Enter the second number: "))
 print("Here is your answer")
 
+
 if choice == '1':
     print(num1, "+", num2, "=", num1 + num2)
 elif choice == '2':
@@ -18,3 +19,5 @@ elif choice == '4':
         print(num1, "/", num2, "=", num1 / num2)
 else:
         print("Invalid input")
+
+print("Thank you for using Calculator!")

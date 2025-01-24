@@ -10,16 +10,14 @@ print("Here is your answer")
 
 if choice == '1':
     print(f"{num1} + {num2} = {num1 + num2}")
-    print("Thank You for Using Calculator")
 elif choice == '2':
     print(f"{num1} - {num2} = {num1 - num2}")
-    print("Thank You for Using Calculator")
 elif choice == '3':
     print(f"{num1} * {num2} = {num1 * num2}")
-    print("Thank You for Using Calculator")
 elif choice == '4':
         print(f"{num1} / {num2} = {num1 / num2}")
-        print("Thank You for Using Calculator")
 else:
         print("Invalid input")
-        
+
+
+print("Thank You for Using Calculator")
